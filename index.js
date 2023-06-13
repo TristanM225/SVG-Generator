@@ -55,7 +55,7 @@ inquirer
   ])
   .then((answers) => {
     const svgImageContent = generateSVG(answers);
-// takes the answers and makes them into a SVG image file.
+// takes the answers and makes them into a SVG image file.  
     fs.writeFile('logo.svg', svgImageContent, (err) =>
       err ? console.log(err) : console.log('Generated logo.svg')
     );
