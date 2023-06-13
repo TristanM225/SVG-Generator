@@ -26,7 +26,8 @@
   
 ![your image!](/assets/images/SVGImage.JPG)
 
-      
+      [HW10SVGGenerator.webm](https://github.com/TristanM225/SVG-Generator/assets/126945628/902d3257-d159-4942-9ae7-647faf3e16a1)
+
   
   ## Credits
   
