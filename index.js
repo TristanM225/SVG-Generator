@@ -9,3 +9,24 @@ const myTriangle = new Triangle(0, 0, 8);
 console.log(myCircle);
 console.log(mySquare);
 console.log(myTriangle);
+
+inquirer
+.prompt([
+    {
+        type: 'input',
+        name: 'text',
+        message: 'Enter three characters',
+      },
+      {
+        type: 'list',
+        name: 'shape',
+        message: 'Choose a shape',
+        choices: ["Square", "Triangle", "Circle"],
+      },
+      {
+        type: 'input',
+        name: 'color',
+        message: 'Choose a color (any!)',
+      },
+
+])
